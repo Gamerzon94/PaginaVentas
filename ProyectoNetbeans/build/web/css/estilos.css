@@ -1,0 +1,306 @@
+.menu
+{
+        position: absolute;
+	top: auto;
+	width: 150px;
+	height: 700px;
+        
+	border: 5px solid white;
+	border-radius:5px;
+        border-color: #8A8E7A;
+	background-color: #ffffff; 
+}
+
+.botonmenu
+{
+	width: 85%;
+	height: 20px;
+	
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: #ff9933;
+	
+	margin: 5px;
+	padding: 5px;
+}
+
+.botonmenucarro
+{
+	width: 85%;
+	height: 45px;
+	
+	border: 1px solid white;
+	border-radius: 5px;
+	background-color: #ff9933;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+}
+
+.contenido
+{
+	position: absolute;
+	top:auto;
+	left: 170px;
+	width: 1075px;
+	height: 700px;
+	
+	border: 2px solid #8A8E7A;
+	border-radius:5px;
+	background-color:white;
+	
+}
+
+body {
+	background-image: url("../img/pagebg.png");
+	color: #000;
+	font-family: Verdana, Arial, Sans-Serif;
+	line-height: 1.4;
+	font-size: 11px;
+}
+
+a:link {
+	color: #4E4E4E;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #4E4E4E;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #000;
+	text-decoration: gray;
+}
+
+.redesociales a:link:hover {
+    opacity: 1;
+}
+.redesociales a:link {
+    opacity: 0.78;
+}
+.redesociales {
+    z-index: 99999;
+    top: -6px;
+}
+
+.thead {
+	background: #8A8E7A url(../img/barra.png) top left repeat-x;
+	color: #ffffff;
+	border-bottom: 1px solid #263c30;
+	padding: 8px;
+}
+
+.barraNegra {
+    background: #8A8E7A url(../img/barra.png) top left repeat-x ;
+    color: #ffffff;
+    border-bottom: 1px solid #263c30;
+    padding: 8px;
+}
+
+.trow1 {
+	background: #f5f5f5;
+	border: 1px solid;
+	border-color: #fff #ddd #ddd #fff;
+}
+
+button,
+input.button {
+	padding: 3px 8px;
+	cursor: pointer;
+	font-family: Tahoma, Verdana, Arial, Sans-Serif;
+	font-size: 13px;
+	background: #eee url(../images/buttons_bg.png) repeat-x;
+	border: 1px solid #bbb;
+	color: #333;
+	outline: 0;
+}
+
+button:hover,
+input.button:hover {
+	border-color: #aaa;
+}
+
+a.button:link,
+a.button:hover,
+a.button:visited,
+a.button:active {
+	background: #8A8E7A url(../images/barra.png) repeat-x;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 8px;
+	margin: 2px 2px 6px 2px;
+	border: 1px solid #000;
+	font-size: 14px;
+}
+
+a.button:link,
+a.button:hover,
+a.button:visited,
+a.button:active {
+	background: #8A8E7A url(../images/barra.png) repeat-x;
+	color: #fff;
+	display: inline-block;
+	padding: 4px 8px;
+	margin: 2px 2px 6px 2px;
+	border: 1px solid #000;
+	font-size: 14px;
+}
+
+a.button.small_button {
+	font-size: 13px;
+	margin: 0;
+	padding: 3px 6px;
+}
+
+a.button span {
+	padding-left: 20px;
+	display: inline-block;
+	background-image: url(../images/buttons_sprite.png);
+	background-repeat: no-repeat;
+}
+
+a.button.new_thread_button span {
+	background-position: 0 -340px;
+}
+
+a.button.new_reply_button span {
+	background-position: 0 -360px;
+}
+
+a.button.closed_button span {
+	background-position: 0 -380px;
+}
+
+a.button.rate_user_button span {
+	background-position: 0 -400px;
+}
+
+a.button.add_buddy_button span {
+	background-position: 0 -440px;
+}
+
+a.button.remove_buddy_button span {
+	background-position: 0 -480px;
+}
+
+a.button.add_ignore_button span {
+	background-position: 0 -460px;
+}
+
+a.button.remove_ignore_button span {
+	background-position: 0 -500px;
+}
+
+a.button.report_user_button span {
+	background-position: 0 -520px;
+}
+
+
+
+#navbar{
+
+    width:auto;
+
+    height:36px;
+
+    background:url(../img/navbar-bg.png) left top repeat-x; 
+}
+
+#navbar .inbar{
+
+    display:block;
+
+    height:36px;
+
+    background:url(../img/right-round.png) right top no-repeat; 
+}
+
+#navbar ul, #navbar ul li{
+
+    border:0px;
+
+    margin:0px;
+
+    padding:0px;
+
+    list-style:none;
+
+    height:36px;
+
+    line-height:36px; } #navbar ul{
+
+    background:url(../img/left-round.png) left top no-repeat; 
+}
+
+#navbar ul li{
+
+    float:left;
+
+    display:block;
+
+    line-height:36px; 
+}
+
+#navbar ul li a{
+
+    color:#403e32;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    display:block; 
+}
+
+#navbar ul li a span{
+
+    padding:0 20px 0 0;
+
+    height:36px;
+
+    line-height:36px;
+
+    display:block;
+
+    margin-left:20px; 
+}
+
+#navbar .navhome a, #navbar .navhome a:hover{
+
+    background:url(../img/a-bg.png) left top no-repeat;
+
+    height:36px;
+
+    line-height:36px; 
+}
+
+#navbar .navhome a span, #navbar .navhome a:hover span{
+
+    color:#FFFFFF;
+
+    background:url(../img/span-bg.png) right top no-repeat;
+
+    height:36px;
+
+    line-height:36px; 
+}
+
+#navbar ul li a:hover{
+
+    background:url(../img/ahover-bg.png) left top no-repeat;
+
+    height:36px;
+
+    line-height:36px; 
+}
+
+#navbar ul li a:hover span{
+
+    background:url(../img/spanhover-bg.png) right top no-repeat;
+
+    height:36px;
+
+    line-height:36px; 
+}
